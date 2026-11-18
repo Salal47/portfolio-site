@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;           
+  padding: 0;          
+}
+
+body {
+  width: 100%;       
+  min-height: 100vh;
+  
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+nav > p {
+  flex: 1;             
+  min-width: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding: 10px;      
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+nav > ul {
+  display: flex;
+  flex: 3;             
+  min-width: 0;
+  list-style: none;   
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav > div {
+  display: flex;
+  flex: 1;             
+  min-width: 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li {
+  white-space: nowrap; 
+  padding: 4px 8px;
+}
+
+
+#hiremeButton {     
+  min-width: 0;
+  padding: 10px;
+  white-space: nowrap;
+  background-color: red;
+  border-radius: 30%;
+  color:white;  
+}
