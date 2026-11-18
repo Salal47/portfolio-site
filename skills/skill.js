@@ -35,8 +35,6 @@ console.log("Function Called Create Contacts ");
   const cards = document.getElementById("cards-cant");
   cards.innerHTML = contactsHTML;
 
-
-  return contactsHTML;
 }
 
 createContactsPage(contactsList);

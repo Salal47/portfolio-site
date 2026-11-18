@@ -41,7 +41,6 @@ console.log("Function Called Create Contacts ");
   cards.innerHTML = contactsHTML;
 
 
-  return contactsHTML;
 }
 
 createContactsPage(contactsList);
