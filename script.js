@@ -1,6 +1,6 @@
 function navBar() {
     const repoBase = window.location.hostname.includes('github.io') ? '/portfolio-site/' : '/';
-
+    console.log(repoBase);
     let navbar = ` 
         <nav>
             <p> Salal </p>
