@@ -11,13 +11,11 @@
   flex: 1 1 280px;
   max-width: 320px;
   margin: 1%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(3px);
 }
 #cards-cant{
     display: flex;
