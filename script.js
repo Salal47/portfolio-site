@@ -4,11 +4,11 @@ function navBar(){
         <nav>
             <p> Salal </p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact\\contact.html">Contact</a></li>
-                <li><a href="about\\about.html">about</a></li>
-                <li><a href="projects\\project.html">Projects</a></li>
-                <li><a href="skills\\skills.html">Skills</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../about/about.html">about</a></li>
+                <li><a href="../projects/project.html">Projects</a></li>
+                <li><a href="../skills/skills.html">Skills</a></li>
             </ul>
             <div>
                 <a href="" id="hiremeButton">Hire Me </a>
